@@ -1,0 +1,40 @@
+/* all */
+body {
+  font-size: arial, helvetica, sans-serif;
+  height: 100vh;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+/* navbar*/
+
+header,
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#logo {
+  width: 50px;
+}
+
+/*footer*/
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-left,
+.footer-right a {
+  color: white;
+}
