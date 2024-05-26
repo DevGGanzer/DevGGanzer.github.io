@@ -3,8 +3,8 @@ body {
   padding-top: 70px;
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
-  background-image: url(../img/background.jpg);
-  background-size: cover;
+  background-image: url(../img/background.png);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,7 +32,13 @@ header,
 #logo {
   width: 75px;
 }
-
+/*article*/
+article {
+  position: relative;
+  padding: 4rem;
+  background: url("../img/articleimg.png") no-repeat bottom right;
+  background-size: 150px 150px;
+}
 /*footer*/
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
