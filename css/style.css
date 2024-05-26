@@ -1,9 +1,7 @@
 /* all */
 body {
   padding-top: 70px;
-}
-body {
-  font-size: arial, helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
   background-image: url("../img/background.jpg");
   background-size: cover;
@@ -11,23 +9,25 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.container {
+  padding: 20px 0;
+}
+
 .row {
   margin: 0;
 }
 
-.container {
-  padding: 70px 0;
-}
 /* navbar*/
 
 header,
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
+  padding: 0;
 }
 
 #nav-container {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
 }
 #logo {
   width: 75px;
